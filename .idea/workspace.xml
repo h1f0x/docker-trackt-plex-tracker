@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbbeadd9-cf95-4553-bce2-3ba8e2491220" name="Default Changelist" comment="" />
+    <list default="true" id="dbbeadd9-cf95-4553-bce2-3ba8e2491220" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +39,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -47,6 +49,16 @@
               <second_editor />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitattributes">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -60,6 +72,9 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -69,6 +84,7 @@
         <option value="$PROJECT_DIR$/rootfs/defaults/00-preparing-filesystem.sh" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Dockerfile" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -78,6 +94,7 @@
     <option name="width" value="1400" />
     <option name="height" value="843" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -101,20 +118,6 @@
               <item name="docker-trackt-plex-tracker" type="462c0819:PsiDirectoryNode" />
               <item name="rootfs" type="462c0819:PsiDirectoryNode" />
               <item name="defaults" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="docker-trackt-plex-tracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docker-trackt-plex-tracker" type="462c0819:PsiDirectoryNode" />
-              <item name="rootfs" type="462c0819:PsiDirectoryNode" />
-              <item name="defaults" type="462c0819:PsiDirectoryNode" />
-              <item name="nginx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="docker-trackt-plex-tracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docker-trackt-plex-tracker" type="462c0819:PsiDirectoryNode" />
-              <item name="rootfs" type="462c0819:PsiDirectoryNode" />
-              <item name="defaults" type="462c0819:PsiDirectoryNode" />
-              <item name="systemd" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -149,12 +152,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552419674433</updated>
-      <workItem from="1552419678954" duration="12661000" />
+      <workItem from="1552419678954" duration="12865000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12661000" />
+    <option name="totallyTimeSpent" value="12865000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="193" y="192" width="1400" height="843" extended-state="0" />
@@ -231,6 +234,12 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
