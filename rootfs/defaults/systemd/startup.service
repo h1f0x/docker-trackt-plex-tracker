@@ -1,0 +1,11 @@
+[Unit]
+Description=Startup Script
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/defaults/00-preparing-filesystem.sh
+TimeoutStartSec=0
+
+[Install]
+WantedBy=default.target
