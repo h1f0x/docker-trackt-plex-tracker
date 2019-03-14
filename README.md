@@ -28,7 +28,7 @@ Note it down.
 To get the docker up and running execute fhe following command:
 
 ```
-docker run -it --name traktor -v /path/to/config-folder:/config:rw -v /path/to/plex-database-folder:/plex:ro -d -p 8000:80 --privileged trakt:latest
+docker run -it --name traktor -v /path/to/config-folder:/config:rw -v /path/to/plex-database-folder:/plex:ro -d -p 8000:80 --privileged h1f0x/docker-traktor
 ```
 
 The default location for your Plex database file depends on your OS:
