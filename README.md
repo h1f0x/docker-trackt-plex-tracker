@@ -10,7 +10,7 @@ It is based on the latest CentOS docker image:
 It provides you with a simple web application to manage and track your progress of your tv-show Plex library. You library will be verified against the free API of trakt.tv, all you need to do is create a free account and issue yourself an API key. 
 > Your database will be refreshed every 15 minutes.
 
-![Upcoming Shows](https://github.com/h1f0x/docker-trackt-plex-tracker/blob/master/images/1.png?raw=true)
+![Upcoming Shows](https://github.com/h1f0x/docker-trackt-plex-tracker/blob/master/images/1.png?raw=true) 
 ![Detail Show](https://github.com/h1f0x/docker-trackt-plex-tracker/blob/master/images/2.png?raw=true)
 
 ## Install instructions
@@ -55,6 +55,10 @@ client_secret = <CLIENT_SECRET>
 
 [Plex]
 database_location = /plex/com.plexapp.plugins.library.db
+
+# language codes examples > de, fr, it, es and so on.. (https://trakt.docs.apiary.io/#reference/languages/get-languages)
+# script default language is "en"
+library_language = en
 ```
 
 Please restart the docker container for instant data refresh. Otherwise the data will be refreshes every 15 minutes automatically.
