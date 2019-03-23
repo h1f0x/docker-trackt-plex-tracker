@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 if [ ! -f /config/config.ini ]; then
-    cp -r /opt/trakt-plex-tracker/config.ini /config/config.ini
+    cp -r /opt/trakt-plex-tracker/config.docker.ini /config/config.ini
 fi
 
 # recreate symlink
